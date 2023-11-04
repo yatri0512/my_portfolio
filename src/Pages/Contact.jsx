@@ -115,7 +115,10 @@ const Contact = () => {
                   );
                })}
             </Box>
-            <Box marginTop={3} marginLeft='20%'>
+            <Box marginTop={3} marginLeft='20%'
+               sx={{
+                  '@media (max-width: 500px)':{marginLeft:'5%'}   
+               }}>
                <Link
                   display="inline-block"
                   padding={1}
