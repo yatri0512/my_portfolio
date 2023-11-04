@@ -89,7 +89,7 @@ const Contact = () => {
                alignItems="center"
                justifyContent={"center"}
                sx={{
-                  '@media (max-width: 500px)':{marginLeft:'10%'}   
+                  '@media (max-width: 500px)':{marginLeft:'5%'}   
                }}>
                {data.map((Val) => {
                   return (
