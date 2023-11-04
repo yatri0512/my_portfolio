@@ -89,7 +89,7 @@ const Contact = () => {
                alignItems="center"
                justifyContent={"center"}
                sx={{
-                  '@media (max-width: 500px)':{marginLeft:'5%'}   
+                  '@media (max-width: 500px)':{marginLeft:'3%'}   
                }}>
                {data.map((Val) => {
                   return (
@@ -118,7 +118,7 @@ const Contact = () => {
             
             <Box marginTop={3} marginLeft='20%'
                sx={{
-                  '@media (max-width: 500px)':{marginLeft:'5%'}   
+                  '@media (max-width: 500px)':{marginLeft:'3%'}   
                }}>
                <Link
                   display="inline-block"
