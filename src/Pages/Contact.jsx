@@ -115,6 +115,7 @@ const Contact = () => {
                   );
                })}
             </Box>
+            
             <Box marginTop={3} marginLeft='20%'
                sx={{
                   '@media (max-width: 500px)':{marginLeft:'5%'}   
