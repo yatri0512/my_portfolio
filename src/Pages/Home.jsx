@@ -36,23 +36,13 @@ const Home = () => {
             <Box padding={5} marginTop={10}  
                sx={{
                "@media (max-width: 700px)": {
-                  marginTop={3}
+                  marginTop={0}
                },
             }}>
-               <Typography variant="h2" color="#27AE60" 
-                   sx={{
-                     "@media (max-width: 700px)": {
-                        variant="h3",
-                     },
-                  }}>
+               <Typography variant="h2" color="#27AE60" >
                   Hi, I'm Yatri Doshi.
                </Typography>
-               <Typography variant="h4"
-                  sx={{
-                     "@media (max-width: 700px)": {
-                        variant="h5",
-                     },
-                  }}>
+               <Typography variant="h4">
                <Typewriter
                      options={{
                         strings: [
