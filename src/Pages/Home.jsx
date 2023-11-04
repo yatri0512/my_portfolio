@@ -39,10 +39,10 @@ const Home = () => {
                   marginTop={0}
                },
             }}>
-               <Typography variant="h3" color="#27AE60" >
+               <Typography variant="h2" color="#27AE60" >
                   Hi, I'm Yatri Doshi.
                </Typography>
-               <Typography variant="h5">
+               <Typography variant="h4">
                <Typewriter
                      options={{
                         strings: [
