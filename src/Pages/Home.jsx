@@ -27,13 +27,14 @@ const Home = () => {
                      "@media (max-width: 500px)": {
                         height: "80%",
                         width: "70%",
+                        padding:"10px"
                      },
                   },
                }}
                alt="The house from the offer."
                src={logo}
             />
-            <Box padding={5} marginTop={10}  
+            <Box padding={3} marginTop={10}  
                sx={{
                "@media (max-width: 700px)": {
                   marginTop:'1'
