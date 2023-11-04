@@ -73,7 +73,10 @@ const About = () => {
                   textJustify="auto"
                   color="#dbe1e8"
                   marginLeft={5}
-                  marginRight={20}>
+                  marginRight={20}
+                  sx={{
+                  '@media (max-width: 500px)':{marginLeft:'3%'}   
+                  }}>
                   I am Yatri Doshi. I am 20 years old. I am
                   from Ahmedabad, Gujarat. I diploma passed
                   from Government Polytechnic, Ahmedabad in
@@ -92,7 +95,10 @@ const About = () => {
                   textJustify="auto"
                   color="#dbe1e8"
                   marginLeft={5}
-                  marginRight={20}>
+                  marginRight={20}
+                  sx={{
+                  '@media (max-width: 500px)':{marginLeft:'3%'}   
+                  }}>
                   Let me introduce myself in 7 words.
                   Responsible, creative, open-minded,
                   friendly and ambitious web developer. This
