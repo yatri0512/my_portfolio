@@ -33,11 +33,26 @@ const Home = () => {
                alt="The house from the offer."
                src={logo}
             />
-            <Box padding={5} marginTop={10}>
-               <Typography variant="h2" color="#27AE60">
+            <Box padding={5} marginTop={10}  
+               sx={{
+               "@media (max-width: 700px)": {
+                  marginTop={3}
+               },
+            }}>
+               <Typography variant="h2" color="#27AE60" 
+                   sx={{
+                     "@media (max-width: 700px)": {
+                        variant="h3",
+                     },
+                  }}>
                   Hi, I'm Yatri Doshi.
                </Typography>
-               <Typography variant="h4">
+               <Typography variant="h4"
+                  sx={{
+                     "@media (max-width: 700px)": {
+                        variant="h5",
+                     },
+                  }}>
                <Typewriter
                      options={{
                         strings: [
