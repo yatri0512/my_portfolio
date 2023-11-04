@@ -36,7 +36,7 @@ const Home = () => {
             <Box padding={5} marginTop={10}  
                sx={{
                "@media (max-width: 700px)": {
-                  marginTop={1}
+                  marginTop:'1'
                },
             }}>
                <Typography variant="h3" color="#27AE60" >
